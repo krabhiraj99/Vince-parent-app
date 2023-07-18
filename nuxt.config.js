@@ -56,7 +56,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    // { src: "~plugins/kendoui", mode: "client" }  //uncomment this to enable kendo plugin from parent app
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -69,8 +71,7 @@ export default {
     // "bootstrap-vue/nuxt",
     "@nuxtjs/style-resources",
     "@nuxtjs/pwa",
-    // "D:\\Vince Live\\vincesoftware-apps-mi-test",
-    "D:\\Vince Live\\demo-child",
+    "D:\\Vince Live\\demo-child", // path of child app in local drive
   ],
 
   /*

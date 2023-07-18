@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "main": "nuxt.config.js",
   "author": "Abhiraj Kumar",
-  "vinceLiveApp": {
-    "name": "demo-nee",
-    "basePath": "apps"
-  },
+  
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -23,6 +20,16 @@
     "@nuxt/kit": "^3.6.2",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/style-resources": "^1.1.0",
+    "@progress/kendo-theme-default": "^6.6.0",
+    "@progress/kendo-vue-animation": "^3.11.1",
+    "@progress/kendo-vue-buttons": "^3.11.1",
+    "@progress/kendo-vue-dialogs": "^3.11.1",
+    "@progress/kendo-vue-dropdowns": "^3.11.1",
+    "@progress/kendo-vue-grid": "^3.11.1",
+    "@progress/kendo-vue-inputs": "^3.11.1",
+    "@progress/kendo-vue-layout": "^3.11.1",
+    "@progress/kendo-vue-notification": "^3.11.1",
+    "@progress/kendo-vue-popup": "^3.11.1",
     "@ssthouse/vue-tree-chart": "^0.5.3",
     "amazon-cognito-identity-js": "^5.2.8",
     "aos": "^2.3.4",
@@ -92,4 +99,5 @@
     "thread-loader": "^3.0.4",
     "vue-loader": "^15.9.8",
     "webpack": "^4.46.0"
-  }}
+  }
+}
