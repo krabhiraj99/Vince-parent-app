@@ -57,7 +57,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    // { src: "~plugins/kendoui", mode: "client" }  //uncomment this to enable kendo plugin from parent app
+    // { src: "~plugins/kendoui", mode: "client" }, //uncomment this to enable kendo plugin from parent app
   ],
   /*
    ** Nuxt.js dev-modules
